@@ -17,6 +17,11 @@
     "next": "13.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-particles": "^2.9.3",
+    "react-tsparticles": "^2.9.3",
+    "simplex-noise": "^4.0.1",
+    "three": "^0.151.3",
+    "tsparticles": "^2.9.3",
     "typescript": "5.0.4"
   }
 }
