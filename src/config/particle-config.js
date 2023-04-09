@@ -58,7 +58,7 @@ const ParticlesConfig = {
     },
     move: {
       enable: true,
-      speed: .15,
+      speed: .3,
       direction: 'none',
       random: false,
       straight: false,
