@@ -7,18 +7,15 @@
 }
 
 .leftMain {
-  border: 1px solid red;
   grid-column: 1 / 2;
 }
 
 .middleMain {
-  border: 1px solid red;
   grid-column: 2 / 3;
   overflow: auto;
 }
 
 .rightMain {
-  border: 1px solid red;
   grid-column: 3 / 4;
 }
 

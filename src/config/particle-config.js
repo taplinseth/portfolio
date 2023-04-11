@@ -6,7 +6,7 @@ const ParticlesConfig = {
   },
   particles: {
     number: {
-      value: 1000,
+      value: 1500,
       density: {
         enable: false,
         value_area: 800,
@@ -30,7 +30,7 @@ const ParticlesConfig = {
       },
     },
     size: {
-      value: .65,
+      value: .85,
       random: false,
       anim: {
         enable: false,
@@ -52,13 +52,13 @@ const ParticlesConfig = {
     line_linked: {
       enable: false, // set to false to disable linking between particles
       distance: 600,
-      color: '#fff',
+      color: '#42f5cb',
       opacity: 0.4,
       width: 2,
     },
     move: {
       enable: true,
-      speed: .3,
+      speed: .5,
       direction: 'none',
       random: false,
       straight: false,
