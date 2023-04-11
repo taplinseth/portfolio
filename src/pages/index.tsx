@@ -2,6 +2,9 @@ import Head from "next/head";
 import styles from "@component/styles/Home.module.css";
 import ParticleBackground from "../components/ParticleBackground";
 import Navbar from "../components/Navbar";
+import AboutMe from "../components/AboutMe";
+import Carousel from "../components/Carousel";
+
 
 export default function Home() {
   return (
@@ -18,27 +21,24 @@ export default function Home() {
 
       <ParticleBackground />
       <main className={styles.main}>
-        <header>
-          <h1>Seth Taplin</h1>
-          <p>Full-Stack Developer</p>
-        </header>
-        <section className={styles.technologies}>
-          <div className={styles.techHeaderContainer}>
-            <p className={styles.techHeader}>Technologies</p>
+        <section className={styles.leftMain}></section>
+        <section className={styles.middleMain}>
+          <div>
+            <h1>Hi, my name is Seth Taplin.</h1>
+            <p>
+              I am a software engineer specializing in full-stack development.
+              <br></br>I build things for the web.<br></br>
+              Contact me below to get in touch about your site.
+            </p>
           </div>
-          <div className={styles.techs}>
-            <p>HTML/CSS</p>
-            <p>Javascript</p>
-            <p>Typescript</p>
-            <p>Python</p>
-            <p>React.js</p>
-            <p>Next.js</p>
-            <p>Node.js</p>
-            <p>MySql</p>
-            <p>MongoDB</p>
+          <div className={styles.aboutMe}>
+            <AboutMe />
+          </div>
+          <div className={styles.carousel}>
+            <Carousel />
           </div>
         </section>
-        <Navbar />
+        <section className={styles.rightMain}></section>
       </main>
     </>
   );
