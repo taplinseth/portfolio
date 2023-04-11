@@ -82,22 +82,22 @@ const Carousel = () => {
           {/* Carousel items */}
           <img
           className={styles.carousel_item}
-          src="https://user-images.githubusercontent.com/26748614/112764571-70698100-9009-11eb-90b0-b42c3dd1d7d3.jpg"
+          src="/projectScreenshots/artistPortfolio.png"
           alt="Item 1"
         />
         <img
           className={styles.carousel_item}
-          src="https://user-images.githubusercontent.com/26748614/112764570-6fd0ea80-9009-11eb-9466-2b2063b82ddb.jpg"
+          src="/projectScreenshots/coinWatcher.png"
           alt="Item 2"
         />
         <img
           className={styles.carousel_item}
-          src="https://user-images.githubusercontent.com/26748614/112764569-6f385400-9009-11eb-9066-ef6c086b7587.jpg"
+          src="/projectScreenshots/devJobs.png"
           alt="Item 3"
         />
                 <img
           className={styles.carousel_item}
-          src="https://user-images.githubusercontent.com/26748614/112764570-6fd0ea80-9009-11eb-9466-2b2063b82ddb.jpg"
+          src="/projectScreenshots/mustache.png"
           alt="Item 2"
         />
           {/* Add more carousel items */}

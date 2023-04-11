@@ -21,11 +21,11 @@
 
   
   .carousel_item {
-    width: 360px;
-    height: 270px;
+    width: 384px;
+    height: 216px;
     box-sizing: border-box;
     backface-visibility:visible;
-    object-fit: cover;
+    object-fit: fill;
   }
   
   .carousel_item img {
